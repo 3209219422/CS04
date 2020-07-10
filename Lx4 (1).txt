@@ -1,0 +1,81 @@
+C#企业级开发技术练习4答题卡
+
+班级：     
+姓名：     
+学号：     
+
+注：请将答案放置在序号下方。*/
+
+（一）using System.Numerics;
+
+namespace ConsoleApp5
+{
+    class Program
+    {
+        static BigInteger TotalMul(long begin,long over)
+        {
+            BigInteger r;
+            return r;
+        }
+        static void Main(string[] args)
+        {
+            Func<BigInteger, long, long> TotalM = null;
+            Console.WriteLine(TotalM(11, 23));
+        }
+    }
+}
+
+
+
+（二）sing System.Linq;
+
+namespace ConsoleApp5
+{
+    delegate decimal TotalCalc(decimal[] x);
+    class Program
+    {
+        static void TotalC(string strC,decimal[] a,TotalCalc funC)
+        {
+            ConsoleApp5.TotalCalc
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
+
+
+（三）using System;
+
+namespace ConsoleApp5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Action<DateTime, int> DateChange = null;
+            DateChange(new DateTime(2020, 10, 2), 5);
+        }
+    }
+}
+
+
+
+（四）using System;
+
+namespace ConsoleApp5
+{
+    class Program
+    {
+        static void isPass(int[] score,string info, Func<int[], int> funP)
+        {
+            int n = funP(score);
+            Console.WriteLine($"{info}:{n}");
+        }
+        static void Main(string[] args)
+        {
+            int[] scs = { 90, 57, 62, 82, 39, 72 };
+        }
+    }
+}
